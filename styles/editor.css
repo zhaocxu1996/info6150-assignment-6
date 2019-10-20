@@ -1,0 +1,9 @@
+.text-editor {
+    width: 1200px;
+    height: 800px;
+    margin: auto;
+}
+
+.text-bold {
+    font-weight: bold;
+}
