@@ -1,12 +1,12 @@
-let italicsBtn = document.getElementById("italics-btn");
-let italicsClickListener = (event) => {
+let underlineBtn = document.getElementById("underline-btn");
+let underlineClickListener = (event) => {
     event.preventDefault();
     let selection = window.getSelection().toString();
 
-    let final =`<span class ="text-italics">` + selection + `</span>`;
+    let final =`<span class ="text-underline">` + selection + `</span>`;
     let completetext = document.getElementById("text-editor").innerHTML;
     completetext= completetext.replace(selection,final);
     document.getElementById("text-editor").innerHTML = completetext;
 }
 
-italicsBtn.addEventListener('click', italicsClickListener);
+underlineBtn.addEventListener('click', underlineClickListener);

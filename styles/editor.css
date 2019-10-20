@@ -4,10 +4,26 @@
     margin: auto;
 }
 
-/* .text-bold {
+.text-bold {
     font-weight: bold;
-} */
+}
 
 .text-italics {
     font-style: italic;
+}
+
+.text-underline {
+    text-decoration: underline;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-justify {
+    text-align: justify;
 }
