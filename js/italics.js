@@ -1,5 +1,5 @@
-let boldBtn = document.getElementById("bold-btn");
-let boldClickListener = (event) => {
+let italicsBtn = document.getElementById("italics-btn");
+let italicsClickListener = (event) => {
     event.preventDefault();
     let selection = window.getSelection();
     let anc = selection.anchorNode;
@@ -19,8 +19,8 @@ let boldClickListener = (event) => {
     let right = origin.substring(end, origin.length);
     // the selected text
     let selectionText = selection.toString();
-    let final = left + `<span class="text-bold">${selectionText}</span>` + right;
+    let final = left + `<span class="text-italics">${selectionText}</span>` + right;
     selection.anchorNode.parentElement.innerHTML = final;
 }
 
-boldBtn.addEventListener('click', boldClickListener);
+italicsBtn.addEventListener('click', italicsClickListener);
