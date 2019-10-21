@@ -1,0 +1,3 @@
+This a google doc - like assignment with 6 functions: bold, italics, underline, left-align, right-align, justify-align.
+For bold, italics, underline these 3 functions, user can select several text and click the function button to make it bold/italics/underline. If the text user selected is already bold/italics/underline, will remove the attribute of these text.
+For other function, user can just click the function button which will make the whole text left-align/right-align/justify-align.
